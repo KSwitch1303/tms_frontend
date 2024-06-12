@@ -1,0 +1,99 @@
+/* Base styles */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  padding: 20px 0;
+}
+
+label {
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+select {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: white;
+  border: 1px solid #ddd;
+  margin: 10px 0;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: left;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+li p {
+  margin: 5px 0;
+}
+
+strong {
+  color: #007bff;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .App {
+    padding: 10px;
+  }
+
+  .App-header {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  label {
+    font-size: 1rem;
+  }
+
+  select {
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+
+  li {
+    padding: 15px;
+    font-size: 0.9rem;
+  }
+}
